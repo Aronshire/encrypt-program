@@ -26,5 +26,6 @@ To get the exe file, firstly, the terminal is opened and the setup command is ru
 
 ## How create a setup file?
 1) You should editing build_installer.js file. This file the contain .msi file settings.
-2) Run the setup command.
+2) Run the build command.
+3) Run the setup command.
 
