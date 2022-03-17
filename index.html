@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt Program</title>
+    <script src="./js/tailwind.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/font.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <script src="./js/jquery.js"></script>
+</head>
+
+<body class="bg-indigo-50" style="font-family: 'Fredoka', sans-serif;">
+
+    <div class="p-10">
+        <p style="font-weight: 600;" class="text-xl text-gray-700"><i class="fa fa-lock text-indigo-500"></i> Metin Şifreleme</p>
+        <div class="my-5"></div>
+        <div class="grid grid-cols-8">
+            <div class="col-span-12 pb-4">
+                <input type="text" id="key" placeholder="Şifre Anahtarı" class="bg-white p-3 rounded-xl w-full border border-gray-200 focus:border-indigo-500 focus:outline-none">
+            </div>
+            <div class="col-span-3"> 
+                <textarea class="bg-white p-3 rounded-xl w-full border border-gray-200 focus:border-indigo-500 focus:outline-none" placeholder="Giriş" style="resize: none;" id="str" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col-span-2 h-auto my-auto">
+                <div class="my-auto mx-auto px-4">
+                    <button class="bg-indigo-600 py-2 px-2 rounded-xl w-full text-white hover:bg-indigo-500 focus:outline-none focus:ring ring-offset-4 ring-indigo-600" id="encrypt">Şifrele <i class="far fa-chevron-right"></i></button>
+                    <button class="mt-2 bg-indigo-600 py-2 px-2 rounded-xl w-full text-white hover:bg-indigo-500 focus:outline-none focus:ring ring-offset-4 ring-indigo-600" id="decrypt">Şifre Çöz <i class="far fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <textarea class="bg-white p-3 rounded-xl w-full border border-gray-200 focus:border-indigo-500 focus:outline-none" placeholder="Çıkış" style="resize: none;" id="encrypted" cols="30" rows="10" disabled></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/encrypt.js"></script>
+<script src="./js/decrypt.js"></script>
+</html>
