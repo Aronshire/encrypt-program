@@ -2,7 +2,9 @@
 
 Developed with electron.js a text encrypt program.
 
-# Run Commands
+![image](https://user-images.githubusercontent.com/64329332/158849053-bf9e6620-b87f-454e-b7cb-04a321e75ca0.png)
+
+## Run Commands
 
 Start Command
 `npm run start`
@@ -13,8 +15,16 @@ Build Command
 MSI Create Command
 `npm run setup`
 
-# Setup
+## Setup
 
 1) Clone the project
 2) Download modules with `npm install`
-3) Use the start command
+3) Run the start command.
+
+## How get a .exe file?
+To get the exe file, firstly, the terminal is opened and the setup command is runned.
+
+## How create a setup file?
+1) You should editing build_installer.js file. This file the contain .msi file settings.
+2) Run the setup command.
+
