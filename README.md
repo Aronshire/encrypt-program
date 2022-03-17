@@ -12,3 +12,9 @@ Build Command
 
 MSI Create Command
 `npm run setup`
+
+# Setup
+
+1) Clone the project
+2) Download modules with `npm install`
+3) Use the start command
