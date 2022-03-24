@@ -21,11 +21,11 @@ MSI Create Command
 2) Download modules with `npm install`
 3) Run the start command.
 
-## How get a .exe file?
+## How to get a .exe file?
 To get the exe file, firstly, the terminal is opened and the setup command is runned.
 
-## How create a setup file?
-1) You should editing build_installer.js file. This file the contain .msi file settings.
+## How to create a setup file?
+1) You should edit build_installer.js file. This file the contain .msi file settings.
 2) Run the build command.
 3) Run the setup command.
 
