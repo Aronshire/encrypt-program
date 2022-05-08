@@ -5,7 +5,7 @@ Developed with electron.js a text encrypt program.
 ![image](https://user-images.githubusercontent.com/64329332/158849053-bf9e6620-b87f-454e-b7cb-04a321e75ca0.png)
 
 ## Requirements
-Node.js v18.0.1
+Node.js v18.1.0
 
 ## Run Commands
 
